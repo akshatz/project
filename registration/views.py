@@ -1,6 +1,8 @@
-from django.shortcuts import render
+from django.contrib import messages
+from django.shortcuts import render, redirect
 from .forms import UserRegisterForm
 # Create your views here.
+
 
 def register_view(request):
     if request.method == 'POST':
@@ -16,4 +18,4 @@ def register_view(request):
     context = {
         'form': form
     }
-    return render(request, 'users/register.html', context)
+    return render(request, 'registration/register.html', context)
