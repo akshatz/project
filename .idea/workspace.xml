@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1331f222-1ef6-45e3-8371-a250024fd446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/registration/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/registration/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,6 +34,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/posts/templates" />
+      <recent name="$PROJECT_DIR$/registration/templates/registration" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
