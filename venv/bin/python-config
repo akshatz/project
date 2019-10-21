@@ -1,4 +1,4 @@
-#!/home/akshatz/PycharmProjects/project/venv/bin/python
+#!/home/cuelogic.local/akshat.zala/PycharmProjects/project/venv/bin/python
 
 import sys
 import getopt

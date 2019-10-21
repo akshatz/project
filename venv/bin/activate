@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/akshatz/PycharmProjects/project/venv"
+VIRTUAL_ENV="/home/cuelogic.local/akshat.zala/PycharmProjects/project/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
