@@ -5,5 +5,5 @@ urlpatterns = [
     # Examples:
     # url(r'^$', 'project.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    path('register/', views.register_view),
+    path('users/', views.register_view),
 ]
