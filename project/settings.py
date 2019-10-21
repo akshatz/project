@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'registration',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -78,9 +78,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'project_1',
+        'NAME': 'blog_data',
         'USER': 'root',
         'PASSWORD': '1234root',
+        'HOST': 'localhost',
+        'PORT': '3306'
     }
 }
 
