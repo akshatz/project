@@ -18,4 +18,4 @@ def register_view(request):
     context = {
         'form': form
     }
-    return render(request, 'users/users.html', context)
+    return render(request, 'users/register.html', context)
